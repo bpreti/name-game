@@ -1,0 +1,14 @@
+{
+  "name": "namegame-test-suite",
+  "version": "1.0.0",
+  "description": "Automated test suite for WillowTree's Name Game",
+  "scripts": {
+    "test-chrome": "testcafe chrome tests",
+    "test-safari": "testcafe safari tests",
+    "test-firefox": "testcafe firefox tests",
+    "test-edge": "testcafe edge tests"
+  },
+  "devDependencies": {
+    "testcafe": "^1.1.2"
+  }
+}
